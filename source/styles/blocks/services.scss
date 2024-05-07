@@ -16,4 +16,21 @@
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
+  mask-image: url("../../icons/arrow.svg#arrow");
+  mask-repeat:no-repeat;
+  mask-size: 32px 10px;
+  mask-position: 102px 7px;
+}
+
+.services__item--skinny {
+  background-image: url("../../icons/services-cat-skinny.svg#services-cat-skinny");
+  background-size: 50px 53px;
+  background-repeat: no-repeat;
+}
+
+
+.services__item--fat {
+  background-image: url("../../icons/services-cat-fat.svg#services-cat-fat");
+  background-size: 67px 50px;
+  background-repeat: no-repeat;
 }
