@@ -43,3 +43,12 @@
   font-size: 16px;
   line-height: 24px;
 }
+
+.example__slider {
+  position: relative;
+}
+
+.example__cat-fat::after {
+  content: "";
+  position: absolute;
+}
