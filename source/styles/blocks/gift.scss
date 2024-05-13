@@ -1,12 +1,22 @@
 .gift {
-  background-color: #68b738;
-  background-image: url("../../icons/catalog-gift.svg#catalog-gift");
-  background-size: 78px 80px;
+  background-image: linear-gradient(rgba(104, 183, 56, .85), rgba(104, 183, 56, .85)), url("../../images/gift-cat-mobile@1x.png");
   background-repeat: no-repeat;
+  width: 280px;
+  height: 290px;
 }
 
 .gift__text {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.gift__icon {
+  position: absolute;
+  background-image: url("../../icons/stack.svg#catalog-gift");
+  background-size: 78px 80px;
+  background-position: 101px 59px;
+  background-repeat: no-repeat;
+  width: 280px;
+  height: 290px;
 }
