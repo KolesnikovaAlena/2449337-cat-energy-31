@@ -21,32 +21,32 @@
   text-decoration: none;
   text-transform: uppercase;
   padding-right: 47px;
-  width: 32px;
-  height: 10px;
-  background-image: url("../../icons/stack.svg#arrow");
-  background-repeat:no-repeat;
-  background-size: 32px 10px;
-  background-position: right 8px top 7px;
+  position: relative;
 }
 
-.services__button:hover {
-  background-position: right 0 top 7px;
+.services__button:hover::after {
+  background-position: right 0 top 0;
 }
-/*
+
 .services__button::after{
   content: "";
+  position: absolute;
+  display: block;
   width: 32px;
   height: 10px;
+  top: 7px;
+  right:0;
   background-image: url("../../icons/stack.svg#arrow");
   background-repeat:no-repeat;
   background-size: 32px 10px;
-  background-position: right 8px top 7px;
+  background-position: right 8px top 0;
 }
-*/
+
 .services__item--skinny {
   background-image: url("../../icons/stack.svg#services-cat-skinny");
   background-size: 50px 53px;
   background-repeat: no-repeat;
+  list-style-type: none;
 }
 
 
@@ -54,4 +54,5 @@
   background-image: url("../../icons/stack.svg#services-cat-fat");
   background-size: 67px 50px;
   background-repeat: no-repeat;
+  list-style-type: none;
 }
