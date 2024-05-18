@@ -21,6 +21,10 @@
 .services__text {
   font-size: 14px;
   line-height: 18px;
+  color: #444444;
+  padding-bottom: 23px;
+  border-bottom: #d9d9d9 1px solid;
+
 }
 
 .services__button {
@@ -30,4 +34,50 @@
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
+  padding-right: 47px;
+  position: relative;
+}
+
+.services__button:hover::after {
+  background-position: right 0 top 0;
+}
+
+.services__button::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 10px;
+  top: 7px;
+  right:0;
+  background-image: url("../../icons/stack.svg#arrow");
+  background-repeat:no-repeat;
+  background-size: 32px 10px;
+  background-position: right 8px top 0;
+}
+
+.services__item {
+  list-style-type: none;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.services__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.services__item--skinny {
+  background-image: url("../../icons/stack.svg#services-cat-skinny");
+  background-size: 50px 53px;
+  background-repeat: no-repeat;
+  background-position: 21px 20px;
+}
+
+
+.services__item--fat {
+  background-image: url("../../icons/stack.svg#services-cat-fat");
+  background-size: 67px 50px;
+  background-repeat: no-repeat;
+  background-position: 21px 20px;
+
 }
