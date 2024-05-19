@@ -2,6 +2,11 @@
   padding: 20px;
 }
 
+.additionally__list {
+  display: flex;
+  flex-direction: column;
+}
+
 .additionally__item {
   list-style-type: none;
 }

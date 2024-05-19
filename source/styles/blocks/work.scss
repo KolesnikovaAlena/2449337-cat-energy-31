@@ -8,12 +8,31 @@
   line-height: 40px;
   font-weight: 400;
   margin: 0;
+  margin-bottom: 40px;
 }
 
 .work__text {
   color: #444444;
   font-size: 14px;
   line-height: 18px;
+  margin: 0;
+}
+
+.work__list {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 280px;
+  gap: 20px 0;
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 247px 249px;
+    gap: 37px 137px;
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 230px 246px 248px 250px;
+    gap: 77px;
+  }
 }
 
 .work__item {
