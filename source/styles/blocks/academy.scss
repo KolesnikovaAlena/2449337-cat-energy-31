@@ -5,3 +5,11 @@
 .academy__link {
   text-decoration: none;
 }
+
+.academy__link:active {
+  opacity: 30%;
+}
+
+.academy__icon:hover {
+  color: #68b738;
+}

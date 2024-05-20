@@ -48,6 +48,10 @@
   background-position: right 0 top 0;
 }
 
+.services__button:active {
+  opacity: 30%;
+}
+
 .services__button::after {
   content: "";
   position: absolute;

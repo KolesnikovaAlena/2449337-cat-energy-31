@@ -12,7 +12,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    grid-template-columns: 245px 245px 245px 245px ;
+    grid-template-columns: 245px 245px 245px 245px;
     gap: 80px 63px;
   }
 }
@@ -109,4 +109,12 @@
   @media (min-width: $desktop-width) {
     padding: 10px 39px;
   }
+}
+
+.catalog-card__unique-button:hover {
+  background-color: #ebebeb;
+}
+
+.catalog-card__unique-button:active {
+  background-color: #ebebeb;
 }

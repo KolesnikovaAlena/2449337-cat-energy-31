@@ -6,3 +6,11 @@
   background-color: #68b738;
   text-transform: uppercase;
 }
+
+.button:hover {
+  background-color: #5eaa2f;
+}
+
+.button:active {
+  opacity: 60%;
+}

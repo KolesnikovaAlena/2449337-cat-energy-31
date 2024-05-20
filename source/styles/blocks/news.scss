@@ -20,6 +20,11 @@
   font-size: 20px;
   line-height: 26px;
   border: none;
+  padding: 15px 82px;
+
+  @media (min-width: $tablet-width) {
+    padding: 15px 70px;
+  }
 }
 
 .news__email {

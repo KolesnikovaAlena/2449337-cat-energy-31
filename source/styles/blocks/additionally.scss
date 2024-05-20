@@ -30,6 +30,15 @@
 
 .additionally-card__button {
   text-decoration: none;
+  padding: 10px 109px;
+
+  @media (min-width: $tablet-width) {
+    padding: 10px 285px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 10px 91px;
+  }
 }
 
 .additionally-card__text {

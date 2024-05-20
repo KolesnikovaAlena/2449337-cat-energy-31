@@ -6,14 +6,30 @@
   text-decoration: none;
 }
 
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  position: relative;
+}
+
 .main-nav__list-item {
   list-style-type: none;
 }
 
+.main-nav__list-item:not(:last-child) {
+  margin-right: 33px;
+}
+
 .main-nav__toggle {
+  position: absolute;
   width: 24px;
   height: 24px;
   background-color: #ffffff;
   border: none;
   background-image: url("../../icons/stack.svg#menu-mobile");
+
+  @media (min-width: $tablet-width) {
+    background-image: none;
+  }
 }
