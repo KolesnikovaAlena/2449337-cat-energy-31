@@ -1,3 +1,7 @@
+.main-nav {
+  padding-top: 20px;
+}
+
 .main-nav__link {
   font-family: "Oswald", "Arial Narrow", sans-serif;
   color: #000000;
@@ -28,6 +32,7 @@
   background-color: #ffffff;
   border: none;
   background-image: url("../../icons/stack.svg#menu-mobile");
+  padding: 0;
 
   @media (min-width: $tablet-width) {
     background-image: none;

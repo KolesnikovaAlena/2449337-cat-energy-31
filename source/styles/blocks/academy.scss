@@ -1,9 +1,7 @@
-.academy__link-text {
-  color: #444444;
-}
-
 .academy__link {
   text-decoration: none;
+  display: flex;
+  margin-top: 20px;
 }
 
 .academy__link:active {
@@ -12,4 +10,14 @@
 
 .academy__icon:hover {
   color: #68b738;
+}
+
+.academy__link-text {
+  color: #444444;
+  margin: 0;
+  margin-right: 140px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 23px;
+  }
 }

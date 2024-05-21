@@ -5,6 +5,7 @@
 .main-header__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-header__logotype:hover {
@@ -13,4 +14,12 @@
 
 .main-header__logotype:active {
   opacity: 60%;
+}
+
+.main-header__text-logo {
+  margin-left: 56px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 0;
+  }
 }
