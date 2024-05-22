@@ -31,6 +31,8 @@
 
   @media (min-width: $tablet-width) {
     color: #000000;
+    font-size: 60px;
+    line-height: 60px;
   }
 
   @media (min-width: $desktop-width) {
@@ -49,6 +51,8 @@
 
   @media (min-width: $tablet-width) {
     color: #000000;
+    font-size: 20px;
+    line-height: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -65,8 +69,13 @@
   box-sizing: border-box;
   width: 280px;
   margin-left: 20px;
+  box-sizing: border-box;
 
   @media (min-width: $tablet-width) {
     margin-left: 90px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 14px 26px;
+    width: 244px;
   }
 }
