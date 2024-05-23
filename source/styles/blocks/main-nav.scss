@@ -6,11 +6,11 @@
   text-decoration: none;
 
   @media (min-width: $tablet-width) {
-     font-size: 18px;
-     line-height: 24px;
-   }
+    font-size: 18px;
+    line-height: 24px;
+  }
 
-   @media (min-width: $tablet-width) {
+  @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: auto;
   }
@@ -18,7 +18,7 @@
 
 .main-nav__link-index {
   @media (min-width: $desktop-width) {
-   // color: #ffffff;
+    // color: #ffffff;
   }
 }
 
