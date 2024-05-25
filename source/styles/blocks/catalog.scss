@@ -23,17 +23,28 @@
   padding-bottom: 25px;
   border-bottom: #ebebeb 1px solid;
   position: relative;
-  padding-left: 104px;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     border: none;
+    width: 324px;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 60px, #f2f2f2 60px, #f2f2f2);
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 245px;
   }
 }
 
 .catalog-cards__image {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10px;
+  left: -36px;
+
+  @media (min-width: $tablet-width) {
+    top: 10px;
+    left: 50%;
+  }
 }
 
 .catalog__title {
@@ -46,6 +57,7 @@
   border-top: #d9d9d9 1px solid;
   padding-bottom: 41px;
   border-bottom: #ebebeb 1px solid;
+
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -65,23 +77,36 @@
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 400;
+  padding-left: 104px;
+  text-align: center;
+
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 24px;
+    padding-left: 0;
+    padding-top: 242px;
   }
 }
 
 .catalog-card__button {
+  display: block;
+  text-align: center;
   text-decoration: none;
   padding: 10px 109px;
+  box-sizing: border-box;
+  width: 280px;
 
   @media (min-width: $tablet-width) {
     padding: 10px 80px;
+    margin-left: 36px;
+    width: 250px;
   }
 
   @media (min-width: $desktop-width) {
     padding: 10px 39px;
+    width: 169px;
+    margin-left: 38px;
   }
 }
 
@@ -89,6 +114,8 @@
   color: #444444;
   font-size: 12px;
   line-height: 16px;
+  display: flex;
+  justify-content: space-between;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -100,6 +127,8 @@
   color: #444444;
   font-size: 12px;
   line-height: 16px;
+  display: flex;
+  justify-content: space-between;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
@@ -111,11 +140,39 @@
   color: #444444;
   font-size: 12px;
   line-height: 16px;
+  display: flex;
+  justify-content: space-between;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 20px;
   }
+}
+
+.catalog-card__information {
+  padding-left: 104px;
+  margin-bottom: 17px;
+  width: 140px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 32px;
+    padding-left: 0;
+    width: 250px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
+  }
+}
+
+.catalog-card__weight-text,
+.catalog-card__weight-mass,
+.catalog-card__taste-text,
+.catalog-card__taste-aftertaste,
+.catalog-card__cost-text,
+.catalog-card__cost-price {
+  margin: 0;
 }
 
 .catalog-card__card-more {
@@ -125,6 +182,13 @@
   background-position: 95px 0;
   padding-top: 53px;
   padding-left: 0;
+  padding-top: 0;
+
+  @media (min-width: $tablet-width) {
+    border: #f2f2f2 2px solid;
+    background-size: 60px 60px;
+    background-position: center 50px;
+  }
 }
 
 .catalog-card__title-more {
@@ -132,15 +196,23 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  text-align: center;
+  padding-top: 150px;
 }
 
 .catalog-card__text-more {
   font-size: 12px;
   line-height: 16px;
+  text-align: center;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 18px;
+    margin-bottom: 82px;
+  }
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 90px;
   }
 }
 
