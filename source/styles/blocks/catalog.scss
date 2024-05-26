@@ -5,6 +5,10 @@
 .catalog__list {
   display: grid;
   grid-template-columns: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 320px;
+  padding-left: 0;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 324px 324px;
@@ -44,6 +48,7 @@
   @media (min-width: $tablet-width) {
     top: 10px;
     left: 50%;
+    transform: translate(-50%);
   }
 }
 
@@ -68,6 +73,7 @@
 
 .catalog-card__item-title {
   text-decoration: none;
+  text-align: center;
 }
 
 .catalog-card__title {
@@ -77,7 +83,6 @@
   line-height: 20px;
   text-transform: uppercase;
   font-weight: 400;
-  padding-left: 104px;
   text-align: center;
 
 

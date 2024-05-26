@@ -10,6 +10,7 @@
   @media (min-width: $tablet-width) {
     background-color: #ffffff;
     background-image: none;
+    min-height: 700px;
   }
 
   @media (min-width: $desktop-width) {
@@ -17,6 +18,22 @@
     background-repeat: no-repeat;
     background-size: 720px 694px;
     background-position: right;
+  }
+}
+
+.program__index-corm-image {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    bottom: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    top: 143px;
+    right: 331px;
   }
 }
 
@@ -68,7 +85,7 @@
   text-align: center;
   box-sizing: border-box;
   width: 280px;
-  margin-left: 20px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     margin-left: 90px;

@@ -1,11 +1,17 @@
 .academy__link {
   text-decoration: none;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
+  justify-content: space-between;
 }
 
 .academy__link:active {
   opacity: 30%;
+}
+
+.academy__icon {
+  color: #666666;
 }
 
 .academy__icon:hover {
