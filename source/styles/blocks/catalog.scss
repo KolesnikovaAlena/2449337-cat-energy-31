@@ -102,17 +102,16 @@
   padding: 10px 109px;
   box-sizing: border-box;
   width: 280px;
+  margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     padding: 10px 80px;
-    margin-left: 36px;
     width: 250px;
   }
 
   @media (min-width: $desktop-width) {
     padding: 10px 39px;
     width: 169px;
-    margin-left: 38px;
   }
 }
 
@@ -185,7 +184,7 @@
   background-image: url("../../icons/stack.svg#catalog-plus");
   background-repeat: no-repeat;
   background-size: 30px 30px;
-  background-position: 95px 0;
+  background-position: center 25px;
   padding-top: 53px;
   padding-left: 0;
   padding-top: 0;
@@ -194,6 +193,19 @@
     border: #f2f2f2 2px solid;
     background-size: 60px 60px;
     background-position: center 50px;
+    min-height: 429px;
+  }
+}
+
+.catalog-card__information-more {
+  margin-bottom: 21px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 82px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 90px;
   }
 }
 
@@ -203,22 +215,28 @@
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 150px;
+  margin: 0;
+  margin-top: 23px;
+  margin-bottom: 8px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 23px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 26px;
+  }
 }
 
 .catalog-card__text-more {
   font-size: 12px;
   line-height: 16px;
   text-align: center;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 18px;
-    margin-bottom: 82px;
-  }
-
-  @media (min-width: $tablet-width) {
-    margin-bottom: 90px;
   }
 }
 
