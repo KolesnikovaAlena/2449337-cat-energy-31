@@ -3,12 +3,17 @@
   position: relative;
 
   @media (min-width: $tablet-width) {
-    background-image: linear-gradient(to top, #f2f2f2, #f2f2f2 462px, #ffffff 462px, #ffffff);
+    background-image: linear-gradient(to top, #eaeaea, #eaeaea 462px, #ffffff 462px, #ffffff);
+  }
+
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff 135px, #f2f2f2 135px, #f2f2f2);
   }
 }
 
 .example__wrapper {
   padding: 20px;
+  position: relative;
 }
 
 .example__information {
@@ -102,6 +107,10 @@
 .example__slider {
   position: relative;
 
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(to top, #eaeaea, #eaeaea 462px, #ffffff 462px, #ffffff);
+  }
+
   @media (min-width: $desktop-width) {
     position: absolute;
     top: 0;
@@ -120,6 +129,10 @@
   overflow: hidden;
   background-color: #ebebeb;
   display: inline-block;
+
+  @media (min-width: $tablet-width) {
+    background-image: linear-gradient(to top, #eaeaea, #eaeaea 462px, #ffffff 462px, #ffffff);
+  }
 
   @media (min-width: $desktop-width) {
     background-image: linear-gradient(to top, #f2f2f2, #f2f2f2 462px, #ffffff 462px, #ffffff);

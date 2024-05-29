@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   width: 280px;
   height: 290px;
-  margin: 0 auto;
+ // margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/gift-cat-tablet@1x.png");
@@ -16,7 +16,7 @@
     background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url("../../images/gift-cat-desktop@1x.png");
     width: 245px;
     height: 288px;
-    margin-top: 80px;
+ //   margin-top: 80px;
   }
 }
 
