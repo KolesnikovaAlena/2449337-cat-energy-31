@@ -139,7 +139,7 @@
   margin-left: -2px;
 }
 
-.example__button::after {
+.example__button::before {
   content: "";
   position: absolute;
   display: block;
@@ -153,7 +153,7 @@
   transform: translate(-50%, -50%);
 }
 
-.example__button::before {
+.example__button::after {
   content: "";
   position: absolute;
   display: block;
