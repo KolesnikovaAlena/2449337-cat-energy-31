@@ -31,12 +31,13 @@
   @media (min-width: $tablet-width) {
     position: absolute;
     bottom: 0;
-    left: calc(50% - 50px);
+    left: 0;
+    text-align: center;
   }
 
   @media (min-width: $desktop-width) {
     bottom: 52px;
-    right: 331px;
+    left: 540px;
   }
 }
 

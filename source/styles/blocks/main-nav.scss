@@ -45,8 +45,13 @@
 }
 
 .main-nav__list-item--current {
-
   border-bottom: #68b738 2px solid;
+}
+
+.main-nav__list-item-index--current {
+  @media (min-width: $desktop-width) {
+   // border-bottom: #ffffff 2px solid;
+  }
 }
 
 .main-nav__toggle {
