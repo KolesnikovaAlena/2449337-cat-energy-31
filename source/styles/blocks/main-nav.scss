@@ -58,6 +58,14 @@
   }
 }
 
+.main-nav__list-item:hover {
+  opacity: 60%;
+}
+
+.main-nav__list-item:active {
+  opacity: 30%;
+}
+
 .main-nav__list-item:not(:last-child) {
   @media (min-width: $tablet-width) {
     margin-right: 33px;

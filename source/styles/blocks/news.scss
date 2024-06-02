@@ -93,19 +93,33 @@
   font-size: 20px;
   line-height: auto;
   text-transform: uppercase;
-  width: 272px;
+  width: 232px;
   height: 56px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   margin-bottom: 16px;
   border: #f2f2f2 2px solid;
+  padding-left: 20px;
+  padding-right: 20px;
 
   @media (min-width: $tablet-width) {
-    width: 376px;
+    width: 336px;
     margin: 0;
   }
 
   @media (min-width: $desktop-width) {
-    width: 496px;
+    width: 456px;
   }
+}
+
+.news__email:hover {
+  border:#cdcdcd 2px solid;
+}
+
+.news__email:focus {
+  border:#444444 2px solid;
+}
+
+.news__email:user-invalid {
+  border: 2px solid #ff8282;
 }
