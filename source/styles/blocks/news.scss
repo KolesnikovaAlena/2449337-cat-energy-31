@@ -1,8 +1,10 @@
+.news {
+  border-top: 3px solid #68b738;
+}
+
 .news__wrapper {
   padding: 20px;
   margin: 0 auto;
-  width: auto;
-  min-width: 280px;
   margin-bottom: 40px;
 
   @media (min-width: $tablet-width) {
@@ -26,31 +28,33 @@
   }
 }
 
-.news__title-container {
-  border-top: 3px solid #68b738;
-}
-
 .news__title {
   font-family: "Oswald", "Arial Narrow", sans-serif;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
   margin: 0;
+  margin-top: -10px;
   position: relative;
   display: inline-block;
   background: #ffffff;
-  transform: translateY(-50%);
+  transform: translateY(-100%);
+  padding-right: 40px;
+  padding-left: 10px;
+  margin-bottom: 42px;
 
   @media (min-width: $tablet-width) {
     font-size: 32px;
     line-height: 32px;
     margin-left: 70px;
+    padding: 0 40px;
   }
 
   @media (min-width: $desktop-width) {
     font-size: 40px;
     line-height: 40px;
     margin-left: 110px;
+    display: inline-block;
   }
 }
 
@@ -89,7 +93,7 @@
   font-size: 20px;
   line-height: auto;
   text-transform: uppercase;
-  width: 280px;
+  width: 272px;
   height: 56px;
   margin: 0 auto;
   text-align: center;

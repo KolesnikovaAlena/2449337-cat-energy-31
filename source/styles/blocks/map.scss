@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.map__wrapper {
+  position: relative;
+}
+
 .map__section {
   padding: 20px;
   display: flex;
@@ -29,7 +33,7 @@
     width: 407px;
     padding: 60px 80px;
     top: 95px;
-    left: 110px;
+    left: 0;
   }
 }
 

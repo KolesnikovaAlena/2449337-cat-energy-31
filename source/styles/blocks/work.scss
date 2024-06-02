@@ -35,6 +35,7 @@
   grid-template-columns: 280px;
   gap: 20px 0;
   counter-reset: listCounter;
+  padding-left: 0;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 247px 249px;
