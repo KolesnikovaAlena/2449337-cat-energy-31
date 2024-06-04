@@ -32,10 +32,7 @@
   position: relative;
   z-index: 3;
   padding: 0;
-
-  @media (min-width: $tablet-width) {
-    width: auto;
-  }
+  width: auto;
 
   @media (min-width: $desktop-width) {
     grid-column: 2/1;
@@ -102,7 +99,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: -1;
+  z-index: 0;
   height: 362px;
 
   @media (min-width: $tablet-width) {
@@ -115,12 +112,12 @@
 }
 
 .map__interactive {
+  position: relative;
   border: none;
   display: block;
   margin: 0 auto;
   width: 100%;
   z-index: 2;
-//  display: none;
 
   @media (min-width: $tablet-width) {
     height: 400px;
