@@ -16,11 +16,13 @@
   padding: 20px;
   position: relative;
 
+
   @media (min-width: $desktop-width) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
 }
 
 .example__information {
@@ -220,6 +222,8 @@
   @media (min-width: $desktop-width) {
     margin-bottom: 69px;
   }
+
+
 }
 
 .example__slider {
